@@ -1,9 +1,9 @@
-.
+**🛡️ AI-Powered Video Content Moderator**
 
-🛡️ AI-Powered Video Content Moderator
+
 An end-to-end Machine Learning application designed to moderate video content by detecting Hate Speech and Offensive Language using Natural Language Processing (NLP).
 
-🚀 Overview
+**🚀 Overview**
 Content moderation is a critical challenge for digital platforms. This project automates the process by extracting audio from video files, transcribing it into text, and using a trained ML classifier to categorize the sentiment. It features a unique dual-mode analysis (Automated & Manual) to ensure high reliability even in noisy environments.
 
 📊 Dataset Summary: Hate Speech & Offensive Language
@@ -32,7 +32,7 @@ Stop-word Removal: Removing common words (the, is, at) that don't add emotional 
 
 TF-IDF Vectorization: Converting text into numerical values based on the "importance" of a word across the entire dataset rather than just its frequency.
 
-🤖 Machine Learning Technical Summary
+**🤖 Machine Learning Technical Summary**
 1. The Model Architecture
 Algorithm: Logistic Regression chosen for its high interpretability and efficiency in multi-class text classification.
 
@@ -67,6 +67,8 @@ graph TD
     classDef data fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
     classDef storage fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
     classDef error fill:#ffcdd2,stroke:#c62828,stroke-width:2px;
+    
+**WorkFlow**
 
     %% 1. Input Stage
     Start(<strong>USER UPLOADS MP4 VIDEO</strong>) --> Upload[<center>Streamlit file_uploader</center>]
@@ -129,7 +131,7 @@ graph TD
         Result
     end%%
   
-  CONCLUSION
+  **Conclusion**
 
    The AI-Powered Video Content Moderator successfully demonstrates an end-to-end multimodal pipeline that bridges the gap between raw video data and automated sentiment analysis. By integrating MoviePy for audio extraction, Pydub for signal normalization, and a Logistic Regression model optimized with balanced class weights, the system effectively identifies toxic content while maintaining transparency through confidence scoring. The inclusion of a Manual Override feature further enhances the tool's real-world utility, ensuring reliability even in noisy environments where Speech-to-Text APIs might fail. This project serves as a robust prototype for automated digital safety, proving that a combination of machine intelligence and human-centric design can significantly streamline content moderation workflows.
    
