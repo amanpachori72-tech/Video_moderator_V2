@@ -1,4 +1,4 @@
-##**🛡️ AI-Powered Video Content Moderator**##
+#**🛡️ AI-Powered Video Content Moderator**#
 
 
 An end-to-end Machine Learning application designed to moderate video content by detecting Hate Speech and Offensive Language using Natural Language Processing (NLP).
